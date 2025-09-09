@@ -31,7 +31,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/seawater-marine/waves-website.git"
+    "url": "https://github.com/JamesFord-HappyHippo/waves-website.git"
   },
   "dependencies": {
     "@types/node": "^24.3.0",
