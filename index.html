@@ -153,8 +153,8 @@
 </head>
 <body class="bg-gray-50">
     <!-- Navigation -->
-    <nav class="bg-white border-gray-200 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 px-4 lg:px-6 py-4">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
             <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <div class="bg-ocean-blue-500 rounded-lg p-2">
                     <i class="fas fa-wave-square text-white text-xl"></i>
@@ -162,8 +162,9 @@
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-deep-blue-800">Waves</span>
             </a>
             
-            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                <button type="button" class="text-white bg-ocean-blue-600 hover:bg-ocean-blue-700 focus:ring-4 focus:outline-none focus:ring-ocean-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-ocean-blue-600 dark:hover:bg-ocean-blue-700 dark:focus:ring-ocean-blue-800">Download App</button>
+            <div class="flex items-center lg:order-2">
+                <a href="#pricing" class="text-gray-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none">Features</a>
+                <button type="button" class="text-white bg-ocean-blue-600 hover:bg-ocean-blue-700 focus:ring-4 focus:outline-none focus:ring-ocean-blue-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none">Download App</button>
                 <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -204,7 +205,7 @@
                 <span class="text-ocean-blue-600">Community Intelligence</span>
             </h1>
             <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-                Waves crowdsources depth data to provide real-time underwater terrain visualization and safer navigation for recreational boaters. Join thousands of boaters sharing critical navigation data.
+                Waves amplifies your existing navigation tools with crowdsourced depth data, real-time underwater terrain visualization, and AI-powered safety analysis. Join thousands of boaters sharing critical navigation intelligence.
             </p>
             <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
                 <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-ocean-blue-700 hover:bg-ocean-blue-800 focus:ring-4 focus:ring-ocean-blue-300 dark:focus:ring-ocean-blue-900">
@@ -234,12 +235,63 @@
         </div>
     </section>
 
+    <!-- AI Tool Amplification Section -->
+    <section class="bg-gray-50 dark:bg-gray-800">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <div class="max-w-screen-md mb-8 lg:mb-16">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                    Amplify Your Navigation Tools
+                </h2>
+                <p class="text-gray-500 sm:text-xl dark:text-gray-400">
+                    Waves doesn't replace your existing marine navigation tools - it amplifies them with AI-powered community intelligence and real-time safety analysis.
+                </p>
+            </div>
+            <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg transition-shadow">
+                    <div class="p-6">
+                        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-blue-100 lg:h-12 lg:w-12 dark:bg-blue-900">
+                            <i class="fas fa-brain text-blue-600 text-xl"></i>
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold dark:text-white">AI-Powered Analysis</h3>
+                        <p class="text-gray-500 dark:text-gray-400">
+                            Advanced machine learning analyzes depth patterns, weather data, and community reports to provide intelligent navigation recommendations.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg transition-shadow">
+                    <div class="p-6">
+                        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-green-100 lg:h-12 lg:w-12 dark:bg-green-900">
+                            <i class="fas fa-layer-group text-green-600 text-xl"></i>
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold dark:text-white">Tool Integration</h3>
+                        <p class="text-gray-500 dark:text-gray-400">
+                            Seamlessly integrates with your existing chartplotters, depth finders, and navigation apps to enhance their capabilities with community data.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg transition-shadow">
+                    <div class="p-6">
+                        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-100 lg:h-12 lg:w-12 dark:bg-indigo-900">
+                            <i class="fas fa-rocket text-indigo-600 text-xl"></i>
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold dark:text-white">10x Enhancement</h3>
+                        <p class="text-gray-500 dark:text-gray-400">
+                            Transform your navigation experience with real-time community intelligence, automated safety checks, and predictive hazard detection.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Features Section -->
     <section class="bg-white dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div class="max-w-screen-md mb-8 lg:mb-16">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-                    Built for Safer Waters
+                    Marine Navigation Capabilities
                 </h2>
                 <p class="text-gray-500 sm:text-xl dark:text-gray-400">
                     Advanced marine technology meets community collaboration to create the most comprehensive depth database for recreational boating.
@@ -446,15 +498,160 @@
         </div>
     </section>
 
+    <!-- Pricing Section -->
+    <section class="bg-gray-50 dark:bg-gray-800" id="pricing">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                    Choose Your Navigation Experience
+                </h2>
+                <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
+                    From open-source community features to commercial-grade navigation intelligence.
+                </p>
+            </div>
+            <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0 pt-6">
+                <!-- Free Tier -->
+                <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                    <h3 class="mb-4 text-2xl font-semibold">Community</h3>
+                    <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Free open-source navigation tools</p>
+                    <div class="flex justify-center items-baseline my-8">
+                        <span class="mr-2 text-5xl font-extrabold">Free</span>
+                    </div>
+                    <ul role="list" class="mb-8 space-y-4 text-left">
+                        <li class="flex items-center space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Basic depth sharing</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Community alerts</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Open source access</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-white bg-ocean-blue-600 hover:bg-ocean-blue-700 focus:ring-4 focus:ring-ocean-blue-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-ocean-blue-900">Get started</a>
+                </div>
+                
+                <!-- Professional Tier -->
+                <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border-2 border-ocean-blue-500 shadow dark:border-ocean-blue-600 xl:p-8 dark:bg-gray-800 dark:text-white relative">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                        <span class="bg-ocean-blue-500 text-white text-sm font-semibold px-4 py-1 rounded-full">Most Popular</span>
+                    </div>
+                    <h3 class="mb-4 text-2xl font-semibold">Professional</h3>
+                    <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Advanced navigation with AI analysis</p>
+                    <div class="flex justify-center items-baseline my-8">
+                        <span class="mr-2 text-5xl font-extrabold">$19</span>
+                        <span class="text-gray-500 dark:text-gray-400">/month</span>
+                    </div>
+                    <ul role="list" class="mb-8 space-y-4 text-left">
+                        <li class="flex items-center space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>AI-powered route planning</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Predictive safety analysis</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Real-time hazard detection</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Integration with chartplotters</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-white bg-ocean-blue-600 hover:bg-ocean-blue-700 focus:ring-4 focus:ring-ocean-blue-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-ocean-blue-900">Get started</a>
+                </div>
+                
+                <!-- Enterprise Tier -->
+                <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                    <h3 class="mb-4 text-2xl font-semibold">Enterprise</h3>
+                    <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Commercial fleet management</p>
+                    <div class="flex justify-center items-baseline my-8">
+                        <span class="mr-2 text-5xl font-extrabold">$99</span>
+                        <span class="text-gray-500 dark:text-gray-400">/month</span>
+                    </div>
+                    <ul role="list" class="mb-8 space-y-4 text-left">
+                        <li class="flex items-center space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Fleet management dashboard</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Custom integrations</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Priority support</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Compliance reporting</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-white bg-ocean-blue-600 hover:bg-ocean-blue-700 focus:ring-4 focus:ring-ocean-blue-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-ocean-blue-900">Get started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Integration Section -->
+    <section class="bg-white dark:bg-gray-900">
+        <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                    Open Source Navigation Intelligence
+                </h2>
+                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
+                    Waves is built on open-source principles. Access our community navigation algorithms, contribute to marine safety improvements, and build on our platform.
+                </p>
+                <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+                    <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-ocean-blue-700 hover:bg-ocean-blue-800 focus:ring-4 focus:ring-ocean-blue-300 dark:focus:ring-ocean-blue-900">
+                        <svg class="w-5 h-5 mr-2 -ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        View on GitHub
+                    </a>
+                    <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                        <i class="fas fa-download w-5 h-5 mr-2 -ml-1"></i>
+                        Documentation
+                    </a>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="bg-gray-900 text-white rounded-lg p-6 font-mono text-sm">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-green-400">$ git clone waves-navigation</span>
+                        <div class="flex space-x-2">
+                            <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+                            <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                            <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <div>$ npm install</div>
+                        <div>$ npm run setup-marine-db</div>
+                        <div>$ npm run load-test-data</div>
+                        <div class="text-green-400">✓ Marine navigation platform ready!</div>
+                        <div class="text-blue-400"># 8,000+ realistic depth readings loaded</div>
+                        <div class="text-blue-400"># Safety systems initialized</div>
+                        <div class="text-blue-400"># Real-time sync enabled</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Call to Action Section -->
     <section class="bg-gradient-to-r from-ocean-blue-600 to-marine-teal-600">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div class="mx-auto max-w-screen-sm text-center">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-white">
-                    Join the Navigation Revolution
+                    Amplify Your Navigation Today
                 </h2>
                 <p class="mb-6 font-light text-blue-100 md:text-lg">
-                    Start contributing to safer waters today. Download Waves and become part of the largest community-driven marine navigation network.
+                    Transform your marine navigation experience with AI-powered community intelligence. Download Waves and join the navigation revolution.
                 </p>
                 <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
                     <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-ocean-blue-600 rounded-lg bg-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-100">

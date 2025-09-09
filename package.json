@@ -8,9 +8,13 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export",
-    "deploy:dev": "aws s3 sync . s3://waves-website-dev --exclude 'node_modules/*' --exclude '.git/*' --exclude 'package*.json' --exclude 'next.config.js' --exclude 'tsconfig.json'",
-    "deploy:staging": "aws s3 sync . s3://waves-website-staging --exclude 'node_modules/*' --exclude '.git/*' --exclude 'package*.json' --exclude 'next.config.js' --exclude 'tsconfig.json'",
-    "deploy:production": "aws s3 sync . s3://waves-website-prod --exclude 'node_modules/*' --exclude '.git/*' --exclude 'package*.json' --exclude 'next.config.js' --exclude 'tsconfig.json'"
+    "serve": "python3 -m http.server 8000",
+    "deploy": "node deploy-waves-marketing.js",
+    "deploy:dev": "node deploy-waves-marketing.js --env=dev --validate",
+    "deploy:staging": "node deploy-waves-marketing.js --env=staging --validate", 
+    "deploy:production": "node deploy-waves-marketing.js --env=production --force --validate",
+    "deploy:dry-run": "node deploy-waves-marketing.js --dry-run --validate",
+    "validate": "node deploy-waves-marketing.js --dry-run --validate"
   },
   "keywords": [
     "waves",
