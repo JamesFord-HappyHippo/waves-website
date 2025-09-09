@@ -1,0 +1,44 @@
+{
+  "name": "waves-website",
+  "version": "1.0.0",
+  "description": "Marketing website for the Waves Marine Navigation Platform",
+  "main": "index.html",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "deploy:dev": "aws s3 sync . s3://waves-website-dev --exclude 'node_modules/*' --exclude '.git/*' --exclude 'package*.json' --exclude 'next.config.js' --exclude 'tsconfig.json'",
+    "deploy:staging": "aws s3 sync . s3://waves-website-staging --exclude 'node_modules/*' --exclude '.git/*' --exclude 'package*.json' --exclude 'next.config.js' --exclude 'tsconfig.json'",
+    "deploy:production": "aws s3 sync . s3://waves-website-prod --exclude 'node_modules/*' --exclude '.git/*' --exclude 'package*.json' --exclude 'next.config.js' --exclude 'tsconfig.json'"
+  },
+  "keywords": [
+    "waves",
+    "marine", 
+    "navigation",
+    "boating",
+    "depth",
+    "crowdsourced",
+    "safety",
+    "marketing",
+    "website"
+  ],
+  "author": "Seawater Marine Technologies",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seawater-marine/waves-website.git"
+  },
+  "dependencies": {
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "autoprefixer": "^10.4.21",
+    "next": "^14.2.32",
+    "postcss": "^8.5.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^4.1.12",
+    "typescript": "^5.9.2"
+  }
+}
